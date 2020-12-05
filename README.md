@@ -14,7 +14,6 @@ The purpose of this project was to collect multiple data sources, make changes t
 ### Airbnb
 * Drop columns not required..
 * Add new columns and calculate their values.
-* Drop columns no longer required.
 * Get zip code
 * Drop columns no longer needed.
 * Group data by zip code and get count of airbnbs in area and average price per night
