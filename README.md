@@ -33,6 +33,10 @@ The purpose of this project was to collect multiple data sources, make changes t
 * Convert zip code field to string.
 
 ### Zillow
+* Reduced DataFrame to appliable columms
+* Filtered data to the last five years
+* Filtered Data to Chicago only ZIP codes
+* Grouped by ZIP code and aggregated by means of house prices
 
 
 ## Load
