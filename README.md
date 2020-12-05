@@ -1,5 +1,7 @@
 # AirBnB-Analysis
 
+The purpose of this project was to collect multiple data sources, make changes to our pulled dataframes, and export our newly remodeled data to a SQL database. Our group focused on data sources relating to homes in chicago, airbnb listings, and local noise complaints. After collecting our data from our respective sources, listed below, we needed to convert different location types into a common form (zip code). One route we took was to use the GoogleMapsAPI, parsing address number and street names from noise complaints and pulling the zipcode from the json output. Meanwhile, we also found a python module Geopy that took our latitude and longitude values from our airbnb data and likewise created raw json output that we could request zipcode from. Once zip codes were found for all our data sets, we were able to group by zipcode to find averages and counts. After the data was transformed, our group exported the data to sql where the tables can be joined and queried.   
+
 ## Extract
 
 ### Data sources
